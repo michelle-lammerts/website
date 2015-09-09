@@ -1,0 +1,156 @@
+/* Reset */
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  background: #ddd;
+}
+
+.social {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  font-family: 'lato',sans-serif;
+  font-size: 27px;
+  font-weight: 700;
+  text-align: center;
+  color: #566;
+  border-radius: 11px;
+  background: #eee;
+  float: right;
+  margin-top: 2%;
+  margin-bottom: 2.8%;
+  margin-right: 2%;
+}
+
+.social:hover {
+  opacity: 0.7;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Classes */
+
+/* Index */
+
+.page {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.banner {
+  margin-bottom: 50px;
+  padding-left: 6%;
+}
+
+.title {
+  text-align: left;
+  font-size: 35px;
+  font-family: 'lato',sans-serif;
+  font-weight: 300;
+  line-height: 1;
+  padding-bottom: 0.25em;
+  margin: 0;
+}
+
+.subtitle {
+  text-align: left;
+  color: #B3B3B3;
+  font-size: 28px;
+  font-family: 'lato',sans-serif;
+  line-height: 1;
+  font-weight: 300;
+  margin: 0;
+}
+
+.navigation {
+  text-align: right;
+  padding-top: 20px;
+  padding-right: 3%;
+}
+
+.navigation-item {
+  font-family: 'lato',sans-serif;
+  font-weight: 300;
+  font-size: 23px;
+  margin-right: 25px;
+  text-decoration: none;
+  color: #B3B3B3;
+}
+
+.navigation-item:hover {
+    opacity: 0.5;
+    text-decoration: underline;
+}
+
+.block {
+  width: 250px;
+  height: 250px;
+  display: inline-block;
+  position: relative;
+  margin-right: 3.8893226%;
+  margin-top: 4%;
+  left: 20%;
+}
+
+.thumbnail {
+  position: relative;
+}
+
+.thumbnail-title {
+  display: block;
+  position: absolute;
+  color: white;
+  background-color: #B3B3B3;
+  bottom: 40px;
+  text-align: center;
+  padding: 0.3em 0 0.4em;
+  width: 100%;
+  font-family: 'lato',sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  z-index: 100;
+}
+
+.thumbnail-image {
+  transition: opacity 200ms ease;
+}
+
+.thumbnail:hover .thumbnail-image {
+  opacity: 0.5;
+}
+
+.block2 {
+  width: 250px;
+  height: 250px;
+  display: inline-block;
+  position: relative;
+  margin-right: 3.8893226%;
+  left: 20%;
+  margin-top: 5%;
+}
+
+/* typography */
+
+.typo {
+  text-align: center;
+  color: #B3B3B3;
+  font-size: 35px;
+  font-family: 'lato',sans-serif;
+  line-height: 1;
+  font-weight: 300;
+  margin: 0;
+}
+ .block1 {
+   width: 500px;
+   height: 800px;
+   position: relative;
+   float: inherit;
+   left: 20%;
+ }
